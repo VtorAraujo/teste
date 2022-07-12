@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Cadastro Despesas|FinaUP
+        </title>
+        <link href="cadastro_despesa.css" rel="stylesheet" type="text/css"/>
+        <link href="menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <img class = "img_logo" src="images/logo.png"/>
+            <input class="botao_mes" type="button" value="Junho"/>
+            <a href="edicao_conta.html"><img class = "img_engrenagem" src="images/engrenagem.png" title="Editar Conta" /></a>
+            <img class = "img_perfil" src="images/perfil.png" title="Editar Conta"/>
+        </header>
+        <!-- Menu -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Planejamento Financeiro</li></a>
+                    <a href="#"><li>Cadastro Despesas</li></a>
+                    <a href="#"><li>Visão Despesas</li></a>
+                    <a href="#"><li>Cadastro Receita</li></a>
+                    <a href="#"><li>Minha Carteira</li></a>
+                    <a href="#"><li>Variações Financeiras</li></a>
+                    <a href="#"><li>Sobre nós</li></a>
+                    <a href="#"><li>Contato</li></a>
+                    <a href="#"><li></li></a>
+                </ul>
+            </div>
+        </nav>
+            <h1>Receita</h1><br>
+            <h6>R$1.000,00</h6>
+        <img class = "img_financa" src="images/financa.png"/>
+        <div id="area">
+			<p>Cadastro de Despesas</p><br> 
+				<div id="texto">
+                    <img class = "img_despesa" src="images/despesa.png"/>
+					<form action="#" method="POST">
+						<input class="campo_valor" type="text" placeholder="Valor(R$)"><br>
+						<select id="categoria" name="categoria">
+                            <option value="Casa">Casa</option>
+                            <option value="Educação">Educação</option>
+                            <option value="Eletrônicos">Eletrônicos</option>
+                            <option value="Lazer">Lazer</option>
+                            <option value="Outros">Outros</option>
+                            <option value="Restaurante">Restaurante</option>
+                            <option value="Saúde">Saúde</option>
+                        </select>
+                        <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Descrição"></textarea><br>
+                        <button id="botao" type="submit">Salvar</button>
+					</form>
+				</div>
+		</div>
+        <footer id="rodape">
+            <img class = "img_logo" src="images/logo.png"/>
+            <a href="home.html"><h2>Home</h2></a>
+            <a href="saldos.html"><h2>Meus Saldos</h2></a>
+            <a href="vr_financeiras.html"><h2>Variações Financeiras</h2></a>
+            <a href="carteira.html"><h2>Carteira</h2></a>
+            <a href="sobre_nos.html"><h3>Sobre nós</h3></a>
+            <a href="inf_empresa.html"><h3>Informações da empresa</h3></a>
+            <a href="historia.html"><h3>Nossa história</h3></a>
+            <a href="suporte.html"><h4>Suporte</h4></a>
+            <a href="suporte.html"><h4>FAQ</h4></a>
+            <a href="suporte.html"><h4>Contato</h4></a>
+            <h5>@2022, copyright, FinaUP. Todos os direitos reservados.</h5>
+        </footer>
+    </body>
+</html>
+

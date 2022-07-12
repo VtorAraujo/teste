@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #1B2C46;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+   }
+
+/*cabeçalho*/
+
+header{
+    background: #050926;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*body*/
+
+.img_logo{
+	width: 170px;
+	height:100px;
+	margin-left: 20px;
+	top:0;
+}
+
+.botao_mes{
+	background: #0855A3;
+	color: #D5E0DB;
+    position:relative;
+	font-size: 17px;
+	width: 150px;
+	height:40px;
+    margin-left: 30%;
+    top:-35px;
+	border-radius: 40px;
+	border-color: #0855A3;
+}
+
+.img_engrenagem{
+    width: 50px;
+	height:50px;
+	margin-left: 430px;
+	top:-15px;
+    position:relative;
+    cursor: pointer;
+}
+
+.img_perfil{
+    width: 50px;
+	height:50px;
+	margin-left: 20px;
+	top:-15px;
+    position:relative;
+    cursor: pointer;
+}
+
+h1{
+	color: #ffffff;
+    background: #0855A3;
+    font-size: 25px;
+    position:absolute;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 150px;
+}
+h6{
+	color: #ffffff;
+    font-size: 30px;
+    position:absolute;
+    margin-left: 15%;
+    margin-top: 180px;
+}
+.img_financa{
+    width: 180px;
+	height:130px;
+	margin-left: 20px;
+	top:100px;
+    position:relative;
+}
+.img_despesa{
+    width: 400px;
+	height:300px;
+	margin-left: 20px;
+	top:70px;
+    position:absolute;
+}
+
+#area{
+    background: #495899;
+    width: 850px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30%;
+    margin-left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-color: #D5E0DB;
+  }
+
+  #texto{ /*form*/
+	color: #ffffff;
+	font-size:15px;
+	font-size: 18px;
+	text-align: center;
+    margin-top: 10%;
+}
+
+p{
+	color: #ffffff;
+    background: #0855A3;
+    font-size: 20px;
+    position:absolute;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.campo_valor{
+	background: #ffffff;
+    border-color: #ffffff;
+    color: #1c805e;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:-40px;
+    margin-right: 50%;
+    text-decoration: none;
+	width: 280px;
+	height:30px;
+	border-radius: 10px;
+}
+
+#categoria{
+
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #515f5a;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:30px;
+    margin-right: 50%;
+    text-decoration: none;
+	width: 290px;
+	height:40px;
+	border-radius: 10px;
+}
+#descricao{
+
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #515f5a;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:30px;
+    margin-right: 50%;
+    text-decoration: none;
+	width: 290px;
+	height:100px;
+	border-radius: 10px;
+}
+
+#botao{
+    background: #1e8b55;
+    border-color: #1e8b55;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:8%;
+    text-decoration: none;
+	width: 290px;
+	height:40px;
+	border-radius: 10px;
+}
+/*footer*/
+
+footer{
+    background: #050926;
+    width: 100%;
+    position: absolute;
+    top:150%;
+  
+    left: 0;
+}
+h2{
+	color: #ffffff;
+    font-size: 14px;
+    position:relative;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+h3{
+	color: #ffffff;
+    font-size: 14px;
+    position:relative;
+    margin-left: 40%;
+    margin-top: -55px;
+}
+h4{
+	color: #ffffff;
+    font-size: 14px;
+    position:relative;
+    margin-left: 60%;
+    margin-top: -10px;
+}
+h5{
+	color: #ffffff;
+    font-size: 12px;
+    position:relative;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+@media (max-width: 767px) {
+    header{
+        background: #050926;
+        width: 130%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #area{
+        width: 321px;
+        height: 389px;
+        margin-top: 90%;
+        margin-left: 47%;
+    }
+    .img_despesa{
+        width: 331px;
+        height: 226px;
+        margin-left: -165px;
+        top: 394px;
+        position: absolute;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 23%;
+        margin-top: 4px;
+    }
+    
+    .img_perfil{
+        width: 38px;
+        height: 39px;
+        margin-left: 13px;
+        top: -83px;
+    }
+    .img_financa{
+        width: 167px;
+        height: 132px;
+        margin-left: -12px;
+        top: 136px;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: 50%;
+        margin-top: 175px;
+    }
+    h6{
+        font-size: 25px;
+        margin-left: 45%;
+        margin-top: 213px;
+    }
+    .img_engrenagem{
+        margin-left: 44px;
+        top: -77px;
+    }
+    .botao_mes{
+        top: -27px;
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+    .img_logo{
+        top:20%;
+    }
+    .botao_mes{
+        margin-left: 18%;
+        top:-35px;
+    }
+    .img_engrenagem{
+        margin-left: 650px;
+        top:-80px;
+    }
+    
+    .img_perfil{
+        margin-left: 3%;
+        top:-75px;
+    }
+    #area{
+        width: 640px;
+        height: 430px;
+        margin-top: 43%;
+        margin-left: 50%;
+    }
+    .img_despesa{
+        width: 285px;
+        height: 240px;
+    }
+    .img_financa{
+        width: 180px;
+        height:130px;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 25px;
+        margin-left: 23%;
+        margin-top: 176px;
+    }
+    h6{
+        font-size: 30px;
+        margin-left: 23%;
+        margin-top: 215px;
+    }
+    h4{
+    margin-left: 65%;
+    }
+
+}
+
